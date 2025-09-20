@@ -1,0 +1,40 @@
+#create with: conda env create -f dspap.yml
+name: dspap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11 #3.13
+  - ipykernel
+  - nodejs
+  - jupyterlab
+  - numpy
+  - scipy
+  - statsmodels
+  - notebook
+  - matplotlib
+  - seaborn
+  - pandas
+  - pandas-datareader
+  - scikit-learn
+  - python-graphviz
+  - graphviz
+  - zarr
+  - fiona
+  - pyproj
+  - proj
+  - rtree
+  - geopy
+  - contextily
+  - gdal
+  - libgdal
+  - geopandas
+  - shapely
+  - fiona
+  - geos
+  - folium
+  - libpysal
+  - pygeos
+  - networkx
+  - numba
+  - pip
